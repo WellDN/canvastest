@@ -1,6 +1,12 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
-interface CanvasProps {
+class CanvasClass {
+    constructor() {
+        
+    }
+}
+
+type CanvasProps = {
     width: number;
     height: number;
 }
