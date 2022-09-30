@@ -1,11 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
-class CanvasClass {
-    constructor() {
-        
-    }
-}
-
 type CanvasProps = {
     width: number;
     height: number;
@@ -14,9 +8,7 @@ type CanvasProps = {
 type Coordinate = {
     x: number;
     y: number;
-};
-
-
+}
 
 const Canvas = ({ width, height }: CanvasProps) => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
